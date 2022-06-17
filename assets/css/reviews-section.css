@@ -1,0 +1,64 @@
+.reviews-section {
+    margin-bottom: 25px;
+}
+
+.reviews-section-text-container {
+    margin: auto;
+}
+
+.reviews-user-container {
+    border-radius: 6px;
+
+    box-shadow: 0px 0px 12.079859733581543px 0px #00000014 inset;
+}
+
+.review-user-image {
+    width: 37px;
+    height: 37px;
+}
+
+.stars-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.star-image {
+    width: 13px;
+    height: 13px;
+}
+
+.review-user-container {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.review-user-info {
+    display: inline-flex;
+    margin-left: 1rem;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-user-name {
+    margin-bottom: .5rem;
+
+    color: var(--secondary-dark-color);
+
+    font-family: 'Trajan Pro 3', serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+    line-height: 1.1em;
+}
+
+.review-user-work-place {
+    color: var(--accent-light-color);
+
+    font-size: .7rem;
+    font-weight: 200;
+    font-style: italic;
+
+    line-height: 1.26em;
+}
