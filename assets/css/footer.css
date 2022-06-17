@@ -116,3 +116,136 @@
 .footer-phone {
     line-height: 1.3em;
 }
+
+@media screen and (min-width: 768px) {
+    .footer-rights {
+        font-size: 1.2rem;
+    }
+
+    .footer-social-networks {
+        margin-top: 28px;
+    }
+
+    .footer-social-networks-image {
+        margin-left: 0;
+        margin-right: 11px;
+    }
+
+    .footer-list {
+        padding: 0;
+    }
+
+    .footer-phone,
+    .footer-email {
+        text-align: left;
+
+        padding-left: 4rem;
+    }
+
+    .footer-phone::before,
+    .footer-email::before {
+        left: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .footer-rights,
+    .footer-list-item-link,
+    .footer-phone {
+        font-size: .9rem;
+    }
+
+    .footer-social-networks-image {
+        margin-right: 13px;
+    }
+
+    .footer-email {
+        font-size: .8rem;
+    }
+
+    .footer-adress {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+
+    .footer-rights,
+    .footer-list-item-link,
+    .footer-phone {
+        font-size: 1rem;
+    }
+
+    .footer-social-networks {
+        margin-top: 34px;
+    }
+
+    .footer-social-networks-image {
+        width: 27px;
+        height: 27px;
+        margin-right: 17px;
+    }
+
+    .footer-phone::before {
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer-email::before {
+        width: 16px;
+        height: 11px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .footer-rights {
+        font-size: 1.2rem;
+    }
+
+    .footer-social-networks {
+        margin-top: 49px;
+    }
+
+    .footer-social-networks-image {
+        width: 39px;
+        height: 39px;
+        margin-right: 18px;
+    }
+
+    .footer-list-item-link,
+    .footer-phone {
+        font-size: 1.1rem;
+
+        line-height: 1.4em;
+    }
+
+    .footer-email {
+        font-size: 1rem;
+
+        line-height: 1.3em;
+    }
+
+    .footer-phone,
+    .footer-email {
+        padding-left: 5rem;
+    }
+
+    .footer-adress {
+        font-size: .9rem;
+    }
+
+    .footer-phone::before {
+        width: 21px;
+        height: 21px;
+
+        top: 11px;
+    }
+
+    .footer-email::before {
+        width: 23px;
+        height: 16px;
+
+        top: 8px;
+    }
+}
