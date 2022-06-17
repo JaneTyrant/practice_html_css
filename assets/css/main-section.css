@@ -91,3 +91,284 @@
 
     line-height: 1.3em;
 }
+
+@media screen and (min-width: 768px) {
+    .themis-image {
+        margin-top: -3rem;
+    }
+
+    .question-form {
+        padding-top: 1rem;
+    }
+
+    .main-section-themis {
+        padding-top: 2rem;
+    }
+
+    .main-section-themis {
+        order: 1;
+    }
+
+    .main-section-question {
+        order: 2;
+    }
+
+    .main-text-container {
+        justify-content: space-between;
+    }
+
+    .main-heading {
+        max-width: 300px;
+    }
+
+    .users-online-container {
+        width: 62px;
+        height: 62px;
+        margin: auto;
+        margin-right: 1rem;
+        box-shadow: 0px 3.207296371459961px 24.05472183227539px 0px #00000026;
+        border-radius: 50%;
+    }
+
+    .users-online-wrapper {
+        width: 54px;
+        height: 54px;
+        margin: auto;
+        margin-top: 4px;
+
+        background-color: var(--accent-light-color);
+        border-radius: 50%;
+    }
+
+    .users-online-image {
+        width: 27px;
+        height: 27px;
+        margin-top: 7px;
+    }
+
+    .users-online-text {
+        display: inline-block;
+
+        color: var(--primary-color);
+
+        font-size: .5rem;
+        font-weight: 200;
+        font-style: italic;
+
+        line-height: 1.3em;
+
+        vertical-align: super;
+    }
+
+    .input-question {
+        min-height: 81px;
+        max-height: 81px;
+    }
+
+    .text-checkbox {
+        font-size: .8rem;
+    }
+
+    .submit-container {
+        margin-top: 20px;
+    }
+
+    .submit-button {
+        margin-left: auto;
+        padding-right: 1rem;
+    }
+
+    .licensia::before {
+        width: 14px;
+        height: 14px;
+        border-radius: 4px;
+    }
+
+    .licensia::after {
+        width: 10px;
+        height: 10px;
+        border-radius: 3px;
+
+        top: 20px;
+        left: 19px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-heading {
+        max-width: 100%;
+    }
+
+    .main-text-description {
+        max-width: 500px;
+        padding-right: 0;
+    }
+
+    .users-online-text {
+        font-size: .4rem;
+
+        vertical-align: middle;
+    }
+
+    .themis-image {
+        margin-top: 0;
+    }
+
+    .input-item::placeholder {
+        line-height: 1.3em;
+    }
+
+    .input-item::placeholder,
+    .text-checkbox {
+        font-size: .6rem;
+    }
+
+    .input-question {
+        min-height: 112px;
+        max-height: 112px;
+    }
+
+    .text-checkbox {
+        width: 90%;
+    }
+
+    .submit-container {
+        margin-top: 0;
+    }
+
+    .submit-button {
+        margin-left: 1rem;
+    }
+
+    .licensia::before {
+        width: 16px;
+        height: 15px;
+    }
+
+    .licensia::after {
+        width: 12px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .main-text-description {
+        max-width: 573px;
+    }
+
+    .themis-image {
+        margin-top: -3rem;
+    }
+
+    .users-online-container {
+        width: 77px;
+        height: 77px;
+        margin-right: 1rem;
+    }
+
+    .users-online-wrapper {
+        width: 69px;
+        height: 69px;
+    }
+
+    .users-online-image {
+        width: 33px;
+        height: 33px;
+    }
+
+    .users-online-text {
+        font-size: .5rem;
+
+        line-height: 1.3em;
+    }
+
+    .input-item::placeholder,
+    .text-checkbox {
+        font-size: .7rem;
+    }
+
+    .input-question {
+        min-height: 140px;
+        max-height: 140px;
+    }
+
+    .licensia::before {
+        width: 18px;
+        height: 19px;
+        border-radius: 5px;
+
+        top: 18px;
+    }
+
+    .licensia::after {
+        width: 12px;
+        height: 12px;
+
+        top: 24px;
+        left: 22px;
+
+        top: 22px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .main-text-description {
+        max-width: 810px;
+    }
+
+    .users-online-container {
+        width: 110px;
+        height: 110px;
+    }
+
+    .users-online-wrapper {
+        width: 98px;
+        height: 98px;
+        margin-top: 6px;
+    }
+
+    .users-online-image {
+        width: 47px;
+        height: 47px;
+    }
+
+    .users-online-text {
+        font-size: .5rem;
+
+        line-height: 1.3em;
+    }
+
+    .input-item::placeholder,
+    .text-checkbox {
+        font-size: .9rem;
+    }
+
+    .input-question {
+        min-height: 172px;
+        max-height: 172px;
+    }
+
+    .submit-container {
+        margin-top: 20px;
+    }
+
+    .licensia::before {
+        width: 29px;
+        height: 26px;
+        border-radius: 7px;
+
+        top: 22px;
+    }
+
+    .licensia::after {
+        width: 19px;
+        height: 17px;
+        border-radius: 4px;
+
+        top: 27px;
+        left: 29px;
+    }
+
+    .text-checkbox {
+        padding-left: 1rem;
+    }
+}
