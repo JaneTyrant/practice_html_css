@@ -1,0 +1,96 @@
+.section-consultation-span-heading {
+    color: var(--secondary-dark-color);
+}
+
+.section-consultation-list {
+    margin-left: 1.3rem;
+    margin-bottom: 1rem;
+
+    list-style-image: url(./../icons/marker_circle.png);
+}
+
+.section-consultation-list-item {
+    color: var(--secondary-dark-color);
+
+    font-size: .8rem;
+    font-weight: 200;
+    font-style: italic;
+
+    line-height: 1.3em;
+}
+
+.consultation-label {
+    display: block;
+    margin-bottom: 12px;
+    position: relative;
+
+    color: #A9A9A9;
+
+    font-size: .9rem;
+    font-weight: 500;
+
+    line-height: 1.3em;
+}
+
+.consultation-label::after {
+    content: '';
+    position: absolute;
+
+    top: 25px;
+    left: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.consultation-user::after {
+    width: 16px;
+    height: 16px;
+
+    background-image: url(./../icons/user-grey.svg);
+}
+
+.consultation-phone::after {
+    width: 15px;
+    height: 15px;
+
+    background-image: url(./../icons/phone-call.svg);
+}
+
+.consultation-input {
+    padding-bottom: 9px;
+    padding-left: 2rem;
+    border: 0;
+    border-bottom: 1px solid var(--accent-light-color);
+    margin-bottom: 19px;
+}
+
+.section-consultation-picture {
+    margin-top: -2.5rem;
+    margin-left: -3rem;
+}
+
+.consultation-button {
+    display: block;
+    width: 80%;
+    margin: auto;
+
+    font-style: normal;
+}
+
+.consultation-button-description {
+    margin-top: 1rem;
+
+    color: var(----secondary-light-color);
+
+    font-size: .5rem;
+    font-weight: 500;
+
+    line-height: 1.2em;
+}
+
+.personal-data {
+    color: var(--secondary-dark-color);
+
+    text-decoration: underline;
+}
