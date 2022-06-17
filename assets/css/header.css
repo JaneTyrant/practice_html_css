@@ -1,0 +1,50 @@
+.header {
+    margin-top: 0.5rem;
+}
+
+.header-container {
+    border-radius: 5px;
+
+    background-color: var(--accent-light-color);
+    color: var(--primary-color);
+}
+
+.flex-justify {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-heading {
+    padding: 7.5% 4.4%;
+
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    line-height: 1.3em;
+}
+
+.header-menu {
+    position: relative;
+
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 17px;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.header-menu-img {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+
+    width: 24px;
+    height: 16px;
+}
+
+.header-contact {
+    display: none;
+}
