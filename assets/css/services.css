@@ -63,3 +63,276 @@
     width: 25px;
     height: 25px;
 }
+
+@media screen and (min-width: 768px) {
+    .services-section {
+        margin-bottom: 32px;
+    }
+
+    .slider-container {
+        gap: 37px;
+        order: 2;
+        margin: inherit;
+        margin-bottom: 14px;
+    }
+
+    .slider-container-card {
+        width: 190px;
+        height: 286px;
+        margin-top: auto;
+    }
+
+    .slider-container-card-side {
+        width: 171px;
+        height: 254px;
+    }
+
+    .slider-heading {
+        font-size: 1.2rem;
+
+        line-height: 1.2em;
+    }
+
+    .slider-heading-side {
+        padding-top: 109px;
+        padding-bottom: 4px;
+    }
+
+    .slider-text-left {
+        padding-bottom: 12px;
+    }
+
+    .slider-text-right {
+        padding-bottom: 42px;
+    }
+
+    .slider-heading-center {
+        padding-top: 135px;
+        padding-bottom: 7px;
+    }
+
+    .slider-text-center {
+        padding-bottom: 39px;
+    }
+
+    .slider-text,
+    .slider-link {
+        font-size: .7rem;
+
+        line-height: 1.2em;
+    }
+
+    .left-card {
+        background-image: linear-gradient(180deg, #414141 -29%, rgba(65, 65, 65, 0) 122.87%), linear-gradient(359.99deg, #65C466 0.01%, rgba(37, 137, 249, 0) 18.44%), url(./../images/architect.jpg);
+    }
+
+    .right-card {
+        background-image: linear-gradient(180deg, #414141 -29%, rgba(65, 65, 65, 0) 122.87%), linear-gradient(359.99deg, #65C466 0.01%, rgba(37, 137, 249, 0) 18.44%), url(./../images/english.jpg);
+    }
+
+    .strip-container {
+        order: 4;
+    }
+
+    .arrow {
+        margin-top: auto;
+
+        padding: 0 1rem;
+    }
+
+    .arrow_left {
+        order: 1;
+
+        margin-right: .5rem;
+
+        text-align: left;
+    }
+
+    .arrow_right {
+        order: 3;
+
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .services-section {
+        margin-bottom: 16px;
+    }
+
+    .slider-container {
+        margin-bottom: 22px;
+
+        gap: 49px;
+    }
+
+    .slider-container-card {
+        width: 253px;
+        height: 380px;
+    }
+
+    .slider-container-card-side {
+        width: 228px;
+        height: 338px;
+    }
+
+    .slider-heading {
+        font-size: 1.3rem;
+
+        line-height: 1.2em;
+    }
+
+    .slider-heading-side {
+        padding-top: 147px;
+        padding-bottom: 6px;
+    }
+
+    .slider-text-left {
+        padding-bottom: 16px;
+    }
+
+    .slider-text-right {
+        padding-bottom: 57px;
+    }
+
+    .slider-heading-center {
+        padding-top: 181px;
+        padding-bottom: 10px;
+    }
+
+    .slider-text-center {
+        padding-bottom: 52px;
+    }
+
+    .slider-text,
+    .slider-link {
+        font-size: .8rem;
+    }
+
+    .arrow_image {
+        width: 33px;
+        height: 33px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .services-section {
+        margin-bottom: 76px;
+    }
+
+    .slider-container {
+        margin-bottom: 29px;
+
+        gap: 60px;
+    }
+
+    .slider-container-card {
+        width: 307px;
+        height: 462px;
+    }
+
+    .slider-container-card-side {
+        width: 276px;
+        height: 411px;
+    }
+
+    .slider-heading {
+        font-size: 1.4rem;
+
+        line-height: 1.2em;
+    }
+
+    .slider-heading-side {
+        padding-top: 180px;
+        padding-bottom: 7px;
+    }
+
+    .slider-text-left {
+        padding-bottom: 20px;
+    }
+
+    .slider-text-right {
+        padding-bottom: 52px;
+    }
+
+    .slider-heading-center {
+        padding-top: 221px;
+        padding-bottom: 12px;
+    }
+
+    .slider-text-center {
+        padding-bottom: 62px;
+    }
+
+    .slider-text,
+    .slider-link {
+        font-size: .8rem;
+
+        line-height: 1.1em;
+    }
+
+    .arrow_image {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .services-section {
+        margin-bottom: 116px;
+    }
+
+    .slider-container {
+        margin-bottom: 46px;
+
+        gap: 85px;
+    }
+
+    .slider-container-card {
+        width: 437px;
+        height: 657px;
+    }
+
+    .slider-container-card-side {
+        width: 393px;
+        height: 585px;
+    }
+
+    .slider-heading {
+        font-size: 1.6rem;
+    }
+
+    .slider-heading-side {
+        padding-top: 281px;
+        padding-bottom: 10px;
+    }
+
+    .slider-text-left {
+        padding-bottom: 11px;
+    }
+
+    .slider-text-right {
+        padding-bottom: 74px;
+    }
+
+    .slider-heading-center {
+        padding-top: 316px;
+        padding-bottom: 17px;
+    }
+
+    .slider-text-center {
+        padding-bottom: 89px;
+    }
+
+    .slider-text,
+    .slider-link {
+        font-size: 1rem;
+
+        line-height: 1.1em;
+    }
+
+    .arrow_image {
+        width: 57px;
+        height: 57px;
+    }
+}
