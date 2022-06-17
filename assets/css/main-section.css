@@ -1,0 +1,93 @@
+.main-heading {
+    padding: 2rem 0 1rem 1rem;
+}
+
+.themis-image {
+    margin-top: -5rem;
+}
+
+.input-item {
+    width: 100%;
+    padding: .7rem .9rem;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+.input-item+.input-item {
+    margin-top: 1rem
+}
+
+.input-item::placeholder,
+.input-question {
+    font-family: 'Mulish', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+
+    line-height: 1rem;
+}
+
+.input-question {
+    min-height: 89px;
+    max-height: 89px;
+}
+
+.submit-container {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    align-items: center;
+}
+
+.checkbox-form {
+    display: inline-block;
+    position: relative;
+}
+
+.licensia {
+    padding-left: 0;
+    padding-right: 9px;
+
+    visibility: hidden;
+}
+
+.licensia::before {
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--accent-light-color);
+    border-radius: 3px;
+
+    visibility: visible;
+}
+
+.licensia::after {
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+
+    top: 16px;
+    left: 16px;
+
+    background-color: var(--accent-light-color);
+}
+
+.licensia::before,
+.licensia::after {
+    content: '';
+
+    position: absolute;
+}
+
+.licensia:checked::after {
+    visibility: visible;
+}
+
+.text-checkbox {
+    width: 50%;
+    display: inline-block;
+
+    color: #A3A3A3;
+
+    font-size: .6rem;
+
+    line-height: 1.3em;
+}
