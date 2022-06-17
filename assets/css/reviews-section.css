@@ -62,3 +62,151 @@
 
     line-height: 1.26em;
 }
+
+@media screen and (min-width: 768px) {
+    .reviews-section {
+        margin-bottom: 44px;
+    }
+
+    .reviews-section-row {
+        justify-content: center;
+
+        gap: 17px;
+    }
+
+    .reviews-user-container {
+        flex-basis: 345px;
+
+        position: relative;
+    }
+
+    .reviews-section-arrow-left {
+        left: -13px;
+
+        background-image: url(./../icons/left-arrow-reviews.svg);
+
+    }
+
+    .reviews-section-arrow-left:hover {
+        background-image: url(./../icons/left-arrow-reviews-hover.svg);
+    }
+
+    .reviews-section-arrow {
+        width: 26px;
+        height: 26px;
+
+        position: absolute;
+        top: 40%;
+
+
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .reviews-section-arrow:hover {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .reviews-section-arrow-right {
+        right: -13px;
+
+        background-image: url(./../icons/right-arrow-reviews.svg);
+    }
+
+    .reviews-section-arrow-right:hover {
+        background-image: url(./../icons/right-arrow-reviews-hover.svg);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .reviews-section {
+        margin-bottom: 51px;
+    }
+
+    .reviews-section-row {
+        gap: 20px;
+    }
+
+    .reviews-user-container {
+        flex-basis: 397px;
+    }
+
+    .reviews-section-arrow {
+        width: 21px;
+        height: 21px;
+
+        top: 45%;
+    }
+
+    .reviews-section-arrow-left {
+        left: -11px;
+    }
+
+    .reviews-section-arrow-right {
+        right: -11px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .reviews-section {
+        margin-bottom: 48px;
+    }
+
+    .reviews-section-row {
+        gap: 28px;
+    }
+
+    .review-user-image {
+        width: 53px;
+        height: 53px;
+    }
+
+    .reviews-user-container {
+        flex-basis: 572px;
+    }
+
+    .reviews-section-arrow {
+        width: 30px;
+        height: 30px;
+    }
+
+    .reviews-section-arrow-left {
+        left: -15px;
+    }
+
+    .reviews-section-arrow-right {
+        right: -15px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .reviews-section {
+        margin-bottom: 69px;
+    }
+
+    .reviews-section-row {
+        gap: 40px;
+    }
+
+    .review-user-image {
+        width: 75px;
+        height: 75px;
+    }
+
+    .reviews-user-container {
+        flex-basis: 813px;
+    }
+
+    .reviews-section-arrow {
+        width: 43px;
+        height: 43px;
+    }
+
+    .reviews-section-arrow-left {
+        left: -21px;
+    }
+
+    .reviews-section-arrow-right {
+        right: -21px;
+    }
+}
