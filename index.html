@@ -358,5 +358,82 @@
                 </ul>
         </div>
     </nav>
+    <main class="main-section">
+        <div class="container">
+            <div class="row main-main">
+                <div class="col-md-7 main-section-question">
+                    <div class="row main-text-container">
+                        <h2 class="main-heading text-container-heading">Задайте вопрос юристу онлайн</h2>
+                        <div class="none-sm block-md none-lg no-padding text-align-center users-online-container">
+                            <div class="users-online-wrapper">
+                                <img class="users-online-image" src="./assets/icons/user_online.png" alt="Online">
+                                <p class="users-online-text">30 онлайн</p>
+                            </div>
+                        </div>
+                        <p class="text-container-description main-text-description">Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.</p>
+                        <div class="none-sm block-lg no-padding text-align-center users-online-container">
+                            <div class="users-online-wrapper">
+                                <img class="users-online-image" src="./assets/icons/user_online.png" alt="Online">
+                                <p class="users-online-text">30 онлайн</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="none block-md">
+                        <form class="question-form " action="#" method="POST">
+                            <input
+                                class="input-item"
+                                type="text"
+                                name="phone_number"
+                                placeholder="Введите номер Вашего телефона">
+                            <textarea
+                                class="input-item input-question"
+                                type="text"
+                                name="question"
+                                placeholder="Введите Ваш вопрос..."></textarea>
+                        </form>
+                        <div class="row submit-container">
+                            <form class="checkbox-form" action="#">
+                                <input id="licensia-checkbox" class="licensia" type="checkbox" name="licensia" value="1">
+                            </form>
+                            <label for="licensia-checkbox" class="no-padding text-checkbox">Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности</label>
+                            <div class="no-padding submit-button">
+                                <button class="button">Отправить вопрос</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <picture class="col-md-5 main-section-themis">
+                    <source srcset="./assets/images/themis_664.png" media="(min-width: 1920px)" type="image/png">
+                    <source srcset="./assets/images/themis_481.png" media="(min-width: 1336px)" type="image/png">
+                    <source srcset="./assets/images/themis_376.png" media="(min-width: 1024px)" type="image/png">
+                    <source srcset="./assets/images/themis_321.png" media="(min-width: 768px)" type="image/png">
+                    <img class="themis-image" src="./assets/images/themis_259.png" alt="Themis">
+                </picture>
+                <form class="none-md" action="#" method="POST">
+                    <input
+                        class="input-item"
+                        type="text"
+                        name="phone_number"
+                        placeholder="Введите номер Вашего телефона"
+                        required>
+                    <textarea
+                        class="input-item input-question"
+                        type="text"
+                        name="question"
+                        placeholder="Введите Ваш вопрос..."
+                        required></textarea>
+                </form>
+                <div class="none-md row submit-container">
+                    <form class="checkbox-form" action="#">
+                        <input id="licensia-checkbox" class="licensia" type="checkbox" name="licensia" value="1">
+                    </form>
+                    <label for="licensia-checkbox" class="no-padding  text-checkbox">Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности</label>
+                    <div class="no-padding">
+                        <button class="button">Отправить вопрос</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
