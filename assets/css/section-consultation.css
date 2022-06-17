@@ -94,3 +94,149 @@
 
     text-decoration: underline;
 }
+
+@media screen and (min-width: 768px) {
+    .section-consultation {
+        margin-top: 70px;
+    }
+
+    .section-consultation-text {
+        padding: 1rem;
+    }
+
+    .section-consultation-form {
+        order: 3;
+
+
+        margin-left: auto;
+    }
+
+    .section-consultation-text,
+    .section-consultation-form {
+        align-self: center;
+    }
+
+    .section-consultation-picture {
+        order: 2;
+
+        text-align: center;
+    }
+
+    .section-consultation-list-item,
+    .consultation-label {
+        font-size: 1rem;
+
+        line-height: 1.2em;
+    }
+
+    .consultation-user::after {
+        width: 17px;
+        height: 17px;
+    }
+
+    .consultation-phone::after {
+        width: 16px;
+        height: 16px;
+    }
+
+    .consultation-button-description {
+        line-height: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .section-consultation-list-item,
+    .consultation-label {
+        font-size: .8rem;
+    }
+
+    .consultation-user::after {
+        width: 24px;
+        height: 24px;
+    }
+
+    .consultation-phone::after {
+        width: 23px;
+        height: 23px;
+    }
+
+    .consultation-button-description {
+        font-size: .4rem;
+    }
+
+    .consultation-input {
+        padding-left: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .section-consultation {
+        margin-top: 100px;
+    }
+
+    .section-consultation-list-item,
+    .consultation-label {
+        font-size: 1rem;
+
+        line-height: 1.3em;
+    }
+
+    .consultation-label::after {
+        top: 66px;
+    }
+
+    .consultation-user::after {
+        width: 24px;
+        height: 24px;
+    }
+
+    .consultation-phone::after {
+        width: 23px;
+        height: 23px;
+    }
+
+    .consultation-button-description {
+        font-size: .5rem;
+    }
+
+    .consultation-input {
+        padding-top: 1rem;
+        padding-left: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .section-consultation {
+        margin-top: 135px;
+    }
+
+    .section-consultation-list-item,
+    .consultation-label {
+        font-size: 1.1rem;
+
+        line-height: 1.2em;
+    }
+
+    .consultation-label::after {
+        top: 57px;
+    }
+
+    .consultation-user::after {
+        width: 34px;
+        height: 34px;
+    }
+
+    .consultation-phone::after {
+        width: 32px;
+        height: 32px;
+    }
+
+    .consultation-button-description {
+        font-size: .6rem;
+    }
+
+    .consultation-input {
+        padding-left: 2.1rem;
+    }
+}
