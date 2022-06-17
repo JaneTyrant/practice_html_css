@@ -1,0 +1,52 @@
+.strip-container {
+    margin: auto;
+
+    font-size: 0;
+}
+
+.strip {
+    display: inline-block;
+    width: 28px;
+    height: 3px;
+    margin-right: 7px;
+
+    border-radius: 2px;
+
+    background-color: #E8E2D5;
+}
+
+.strip:hover {
+    background-color: var(--accent-light-color);
+}
+
+@media screen and (min-width: 768px) {
+    .strip {
+        width: 36px;
+        height: 4px;
+        margin-right: 9px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .strip {
+        width: 48px;
+        height: 6px;
+        margin-right: 12px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .strip {
+        width: 58px;
+        height: 7px;
+        margin-right: 14px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .strip {
+        width: 83px;
+        height: 10px;
+        margin-right: 20px;
+    }
+}
