@@ -58,6 +58,8 @@
 }
 
 .consultation-input {
+    width: 100%;
+    max-width: 300px;
     padding-bottom: 9px;
     padding-left: 2rem;
     border: 0;
@@ -66,8 +68,16 @@
 }
 
 .section-consultation-picture {
-    margin-top: -2.5rem;
-    margin-left: -3rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -1.5rem;
+    margin-left: auto;
+
+    text-align: right;
+}
+
+.consultation-button-container {
+    max-width: 300px;
 }
 
 .consultation-button {
@@ -129,6 +139,10 @@
         line-height: 1.2em;
     }
 
+    .consultation-input {
+        max-width: 100%;
+    }
+
     .consultation-user::after {
         width: 17px;
         height: 17px;
@@ -137,6 +151,10 @@
     .consultation-phone::after {
         width: 16px;
         height: 16px;
+    }
+
+    .consultation-button-container {
+        max-width: 100%;
     }
 
     .consultation-button-description {
@@ -151,6 +169,10 @@
         font-size: .8rem;
     }
 
+    .consultation-input {
+        padding-left: 2.5rem;
+    }
+
     .consultation-user::after {
         width: 24px;
         height: 24px;
@@ -163,10 +185,6 @@
 
     .consultation-button-description {
         font-size: .4rem;
-    }
-
-    .consultation-input {
-        padding-left: 2.5rem;
     }
 }
 
@@ -183,7 +201,7 @@
     }
 
     .consultation-label::after {
-        top: 66px;
+        top: 40px;
     }
 
     .consultation-user::after {
@@ -218,6 +236,10 @@
         line-height: 1.2em;
     }
 
+    .consultation-input {
+        padding-left: 2.1rem;
+    }
+
     .consultation-label::after {
         top: 57px;
     }
@@ -234,9 +256,5 @@
 
     .consultation-button-description {
         font-size: .6rem;
-    }
-
-    .consultation-input {
-        padding-left: 2.1rem;
     }
 }
