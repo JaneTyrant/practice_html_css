@@ -1,676 +1,1075 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,500;0,700;1,200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,500;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/fonts.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/section-navigation.css">
-    <link rel="stylesheet" href="./assets/css/text-container.css">
-    <link rel="stylesheet" href="./assets/css/main-section.css">
-    <link rel="stylesheet" href="./assets/css/button.css">
-    <link rel="stylesheet" href="./assets/css/business-section.css">
-    <link rel="stylesheet" href="./assets/css/services.css">
-    <link rel="stylesheet" href="./assets/css/strip.css">
-    <link rel="stylesheet" href="./assets/css/advantages-section.css">
-    <link rel="stylesheet" href="./assets/css/section-consultation.css">
-    <link rel="stylesheet" href="./assets/css/reviews-section.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/section-navigation.css" />
+    <link rel="stylesheet" href="./assets/css/text-container.css" />
+    <link rel="stylesheet" href="./assets/css/main-section.css" />
+    <link rel="stylesheet" href="./assets/css/button.css" />
+    <link rel="stylesheet" href="./assets/css/business-section.css" />
+    <link rel="stylesheet" href="./assets/css/services.css" />
+    <link rel="stylesheet" href="./assets/css/strip.css" />
+    <link rel="stylesheet" href="./assets/css/advantages-section.css" />
+    <link rel="stylesheet" href="./assets/css/section-consultation.css" />
+    <link rel="stylesheet" href="./assets/css/reviews-section.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container header-container">
-            <div class="row flex-justify no-space">
-                <h1 class="header-heading">Классика права</h1>
-                <div class="header-menu">
-                    <img class="header-menu-img" src="./assets/icons/menu.png" alt="Menu">
-                </div>
-                <div class="phone-container none">
-                    <img class="phone-img" src="./assets/icons/phone.png" alt="Phone">
-                    <p class="phone">+38 (000) 000-00-00</p>
-                    <p class="phone-text">Бесплатная консультация</p>
-                </div>
-                <button class="call-button none">заказать звонок</button>
-                <div class="log-in text-align-center none">
-                    <img class="user-img" src="./assets/icons/user.png" alt="User">
-                    <a class="log-in-link no-padding" href="#">войти/</a>
-                    <a class="log-in-link no-padding" href="#">регистрация</a>
-                </div>
-            </div>
+      <div class="container header-container">
+        <div class="row flex-justify no-space">
+          <h1 class="header-heading">Классика права</h1>
+          <div class="header-menu">
+            <img
+              class="header-menu-img"
+              src="./assets/icons/menu.png"
+              alt="Menu"
+            />
+          </div>
+          <div class="phone-container none">
+            <img class="phone-img" src="./assets/icons/phone.png" alt="Phone" />
+            <p class="phone">+38 (000) 000-00-00</p>
+            <p class="phone-text">Бесплатная консультация</p>
+          </div>
+          <button class="call-button none">заказать звонок</button>
+          <div class="log-in text-align-center none">
+            <img class="user-img" src="./assets/icons/user.png" alt="User" />
+            <a class="log-in-link no-padding" href="#">войти/</a>
+            <a class="log-in-link no-padding" href="#">регистрация</a>
+          </div>
         </div>
+      </div>
     </header>
     <nav class="section-navigation">
-        <div class="container">
-            <div class="line none block-md"></div>
-                <ul class="nav-list none block-lg">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">компания
-                            <svg class="arrow-down" viewBox="0 0 25 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.4393 15.0088L24.4037 2.48302C24.7543 2.06835 24.7442 1.40758 24.3812 1.00712C24.0271 0.616439 23.4657 0.616456 23.1117 1.00715L12.7933 12.795L2.47416 1.00778C2.11736 0.600283 1.53893 0.600301 1.18216 1.00782C0.825438 1.41546 0.825458 2.07616 1.1822 2.48372L12.1473 15.0089C12.5042 15.4164 13.0826 15.4164 13.4393 15.0088Z"/>
-                                </svg>
-                        </a>
-                        <ul class="nav-list sub-nav-list">
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Оконные системы
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                    <ul class="nav-list sub-nav-list">
-                                        <li class="sub-nav-list-item">
-                                            <a class="block" href="#">Структурный фасад</a>
-                                        </li>
-                                        <li class="sub-nav-list-item">
-                                            <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                        </li>
-                                        <li class="sub-nav-list-item">
-                                            <a class="block" href="#">Цветные МФУ</a>
-                                        </li>
-                                        <li class="sub-nav-list-item">
-                                            <a class="block" href="#">Измерительное оборудование</a>
-                                        </li>
-                                    </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Фасадные системы
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</ф>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Фасадные системы
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Уличная мебель
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Мультимедиа проекторы
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Цветные МФУ
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Измерительное оборудование
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">каталог
-                            <svg class="arrow-down" viewBox="0 0 25 16" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.4393 15.0088L24.4037 2.48302C24.7543 2.06835 24.7442 1.40758 24.3812 1.00712C24.0271 0.616439 23.4657 0.616456 23.1117 1.00715L12.7933 12.795L2.47416 1.00778C2.11736 0.600283 1.53893 0.600301 1.18216 1.00782C0.825438 1.41546 0.825458 2.07616 1.1822 2.48372L12.1473 15.0089C12.5042 15.4164 13.0826 15.4164 13.4393 15.0088Z"/>
-                                </svg>
-                        </a>
-                        <ul class="nav-list sub-nav-list">
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Оконные системы
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                    <ul class="nav-list sub-nav-list">
-                                        <li class="sub-nav-list-item">
-                                            <a class="block" href="#">Структурный фасад</a>
-                                        </li>
-                                        <li class="sub-nav-list-item">
-                                            <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                        </li>
-                                        <li class="sub-nav-list-item">
-                                            <a class="block" href="#">Цветные МФУ</a>
-                                        </li>
-                                        <li class="sub-nav-list-item">
-                                            <a class="block" href="#">Измерительное оборудование</a>
-                                        </li>
-                                    </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Фасадные системы
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Фасадные системы
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Уличная мебель
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Мультимедиа проекторы
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Цветные МФУ
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="sub-nav-list-item">
-                                <a class="block" href="#">Измерительное оборудование
-                                    <img class="sub-nav-arrow" src="./assets/icons/arrow-right-subnavigation.png" alt="Arrow right">
-                                </a>
-                                <ul class="nav-list sub-nav-list">
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Структурный фасад</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Полуструктурный "горизонтальная линия"</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Цветные МФУ</a>
-                                    </li>
-                                    <li class="sub-nav-list-item">
-                                        <a class="block" href="#">Измерительное оборудование</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">контакты</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">вопросы-ответы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">прайс-лист</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">услуги</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link search-link" href="#">
-                            <svg class="search-image" viewBox="0 0 35 35"  xmlns="http://www.w3.org/2000/svg">
-                                <path d="M34.5964 32.0458L24.6868 22.1362C26.5663 19.8157 27.6977 16.8657 27.6977 13.6539C27.6977 6.20826 21.6401 0.150696 14.1945 0.150696C6.74891 0.150696 0.691406 6.20826 0.691406 13.6539C0.691406 21.0995 6.74898 27.1571 14.1946 27.1571C17.4064 27.1571 20.3564 26.0256 22.6769 24.1461L32.5865 34.0557C32.8641 34.3332 33.314 34.3332 33.5916 34.0557L34.5965 33.0509C34.874 32.7733 34.874 32.3233 34.5964 32.0458ZM14.1946 24.3143C8.31612 24.3143 3.5342 19.5324 3.5342 13.6539C3.5342 7.77541 8.31612 2.99349 14.1946 2.99349C20.0731 2.99349 24.855 7.77541 24.855 13.6539C24.855 19.5324 20.0731 24.3143 14.1946 24.3143Z" />
-                                </svg>
-                        </a>
-                    </li>
+      <div class="container">
+        <div class="line none block-md"></div>
+        <ul class="nav-list none block-lg">
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >компания
+              <svg
+                class="arrow-down"
+                viewBox="0 0 25 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.4393 15.0088L24.4037 2.48302C24.7543 2.06835 24.7442 1.40758 24.3812 1.00712C24.0271 0.616439 23.4657 0.616456 23.1117 1.00715L12.7933 12.795L2.47416 1.00778C2.11736 0.600283 1.53893 0.600301 1.18216 1.00782C0.825438 1.41546 0.825458 2.07616 1.1822 2.48372L12.1473 15.0089C12.5042 15.4164 13.0826 15.4164 13.4393 15.0088Z"
+                />
+              </svg>
+            </a>
+            <ul class="nav-list sub-nav-list">
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Оконные системы
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
                 </ul>
-        </div>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Фасадные системы
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Фасадные системы
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Уличная мебель
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Мультимедиа проекторы
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Цветные МФУ
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Измерительное оборудование
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >каталог
+              <svg
+                class="arrow-down"
+                viewBox="0 0 25 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.4393 15.0088L24.4037 2.48302C24.7543 2.06835 24.7442 1.40758 24.3812 1.00712C24.0271 0.616439 23.4657 0.616456 23.1117 1.00715L12.7933 12.795L2.47416 1.00778C2.11736 0.600283 1.53893 0.600301 1.18216 1.00782C0.825438 1.41546 0.825458 2.07616 1.1822 2.48372L12.1473 15.0089C12.5042 15.4164 13.0826 15.4164 13.4393 15.0088Z"
+                />
+              </svg>
+            </a>
+            <ul class="nav-list sub-nav-list">
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Оконные системы
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Фасадные системы
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Фасадные системы
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Уличная мебель
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Мультимедиа проекторы
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Цветные МФУ
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="sub-nav-list-item">
+                <a class="block" href="#"
+                  >Измерительное оборудование
+                  <img
+                    class="sub-nav-arrow"
+                    src="./assets/icons/arrow-right-subnavigation.png"
+                    alt="Arrow right"
+                  />
+                </a>
+                <ul class="nav-list sub-nav-list">
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Структурный фасад</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#"
+                      >Полуструктурный "горизонтальная линия"</a
+                    >
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Цветные МФУ</a>
+                  </li>
+                  <li class="sub-nav-list-item">
+                    <a class="block" href="#">Измерительное оборудование</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">контакты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">вопросы-ответы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">прайс-лист</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link search-link" href="#">
+              <svg
+                class="search-image"
+                viewBox="0 0 35 35"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M34.5964 32.0458L24.6868 22.1362C26.5663 19.8157 27.6977 16.8657 27.6977 13.6539C27.6977 6.20826 21.6401 0.150696 14.1945 0.150696C6.74891 0.150696 0.691406 6.20826 0.691406 13.6539C0.691406 21.0995 6.74898 27.1571 14.1946 27.1571C17.4064 27.1571 20.3564 26.0256 22.6769 24.1461L32.5865 34.0557C32.8641 34.3332 33.314 34.3332 33.5916 34.0557L34.5965 33.0509C34.874 32.7733 34.874 32.3233 34.5964 32.0458ZM14.1946 24.3143C8.31612 24.3143 3.5342 19.5324 3.5342 13.6539C3.5342 7.77541 8.31612 2.99349 14.1946 2.99349C20.0731 2.99349 24.855 7.77541 24.855 13.6539C24.855 19.5324 20.0731 24.3143 14.1946 24.3143Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <main class="main-section">
-        <div class="container">
-            <div class="row main-main">
-                <div class="col-md-7 main-section-question">
-                    <div class="row main-text-container">
-                        <h2 class="main-heading text-container-heading">Задайте вопрос юристу онлайн</h2>
-                        <div class="none-sm block-md none-lg no-padding text-align-center users-online-container">
-                            <div class="users-online-wrapper">
-                                <img class="users-online-image" src="./assets/icons/user_online.png" alt="Online">
-                                <p class="users-online-text">30 онлайн</p>
-                            </div>
-                        </div>
-                        <p class="text-container-description main-text-description">Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.</p>
-                        <div class="none-sm block-lg no-padding text-align-center users-online-container">
-                            <div class="users-online-wrapper">
-                                <img class="users-online-image" src="./assets/icons/user_online.png" alt="Online">
-                                <p class="users-online-text">30 онлайн</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="none block-md">
-                        <form class="question-form" action="#" method="POST">
-                            <input
-                                class="input-item"
-                                type="text"
-                                name="phone_number"
-                                placeholder="Введите номер Вашего телефона">
-                            <textarea
-                                class="input-item input-question"
-                                type="text"
-                                name="question"
-                                placeholder="Введите Ваш вопрос..."></textarea>
-                        </form>
-                        <div class="row submit-container">
-                            <form class="checkbox-form" action="#">
-                                <input id="licensia-checkbox" class="licensia" type="checkbox" name="licensia" value="1">
-                            </form>
-                            <label for="licensia-checkbox" class="no-padding text-checkbox">Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности</label>
-                            <div class="no-padding submit-button">
-                                <button class="button">Отправить вопрос</button>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row main-main">
+          <div class="col-md-7 main-section-question">
+            <div class="row main-text-container">
+              <h2 class="main-heading text-container-heading">
+                Задайте вопрос юристу онлайн
+              </h2>
+              <div
+                class="none-sm block-md none-lg no-padding text-align-center users-online-container"
+              >
+                <div class="users-online-wrapper">
+                  <img
+                    class="users-online-image"
+                    src="./assets/icons/user_online.png"
+                    alt="Online"
+                  />
+                  <p class="users-online-text">30 онлайн</p>
                 </div>
-                <picture class="col-md-5 main-section-themis">
-                    <source srcset="./assets/images/themis_664.png" media="(min-width: 1920px)" type="image/png">
-                    <source srcset="./assets/images/themis_481.png" media="(min-width: 1336px)" type="image/png">
-                    <source srcset="./assets/images/themis_376.png" media="(min-width: 1024px)" type="image/png">
-                    <source srcset="./assets/images/themis_321.png" media="(min-width: 768px)" type="image/png">
-                    <img class="themis-image" src="./assets/images/themis_259.png" alt="Themis">
-                </picture>
-                <form class="none-md question-form" action="#" method="POST">
-                    <input
-                        class="input-item"
-                        type="text"
-                        name="phone_number"
-                        placeholder="Введите номер Вашего телефона"
-                        required>
-                    <textarea
-                        class="input-item input-question"
-                        type="text"
-                        name="question"
-                        placeholder="Введите Ваш вопрос..."
-                        required></textarea>
+              </div>
+              <p class="text-container-description main-text-description">
+                Компания специализируется на оказании широкого спектра услуг как
+                для корпоративных клиентов так и для частных лиц.
+                Профессионализм и ответственность ключевые преимущества нашей
+                компании.
+              </p>
+              <div
+                class="none-sm block-lg no-padding text-align-center users-online-container"
+              >
+                <div class="users-online-wrapper">
+                  <img
+                    class="users-online-image"
+                    src="./assets/icons/user_online.png"
+                    alt="Online"
+                  />
+                  <p class="users-online-text">30 онлайн</p>
+                </div>
+              </div>
+            </div>
+            <div class="none block-md">
+              <form class="question-form" action="#" method="POST">
+                <input
+                  class="input-item"
+                  type="text"
+                  name="phone_number"
+                  placeholder="Введите номер Вашего телефона"
+                />
+                <textarea
+                  class="input-item input-question"
+                  type="text"
+                  name="question"
+                  placeholder="Введите Ваш вопрос..."
+                ></textarea>
+              </form>
+              <div class="row submit-container">
+                <form class="checkbox-form" action="#">
+                  <input
+                    id="licensia-checkbox"
+                    class="licensia"
+                    type="checkbox"
+                    name="licensia"
+                    value="1"
+                  />
                 </form>
-                <div class="none-md row submit-container">
-                    <form class="checkbox-form" action="#">
-                        <input id="licensia-checkbox" class="licensia" type="checkbox" name="licensia" value="1">
-                    </form>
-                    <label for="licensia-checkbox" class="no-padding  text-checkbox">Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности</label>
-                    <div class="no-padding question-button">
-                        <button class="button">Отправить вопрос</button>
-                    </div>
+                <label for="licensia-checkbox" class="no-padding text-checkbox"
+                  >Нажимая кнопку “Отправить” вы соглашаетесь с политикой
+                  конфидециальности</label
+                >
+                <div class="no-padding submit-button">
+                  <button class="button">Отправить вопрос</button>
                 </div>
+              </div>
             </div>
+          </div>
+          <picture class="col-md-5 main-section-themis">
+            <source
+              srcset="./assets/images/themis_664.png"
+              media="(min-width: 1920px)"
+              type="image/png"
+            />
+            <source
+              srcset="./assets/images/themis_481.png"
+              media="(min-width: 1336px)"
+              type="image/png"
+            />
+            <source
+              srcset="./assets/images/themis_376.png"
+              media="(min-width: 1024px)"
+              type="image/png"
+            />
+            <source
+              srcset="./assets/images/themis_321.png"
+              media="(min-width: 768px)"
+              type="image/png"
+            />
+            <img
+              class="themis-image"
+              src="./assets/images/themis_259.png"
+              alt="Themis"
+            />
+          </picture>
+          <form class="none-md question-form" action="#" method="POST">
+            <input
+              class="input-item"
+              type="text"
+              name="phone_number"
+              placeholder="Введите номер Вашего телефона"
+              required
+            />
+            <textarea
+              class="input-item input-question"
+              type="text"
+              name="question"
+              placeholder="Введите Ваш вопрос..."
+              required
+            ></textarea>
+          </form>
+          <div class="none-md row submit-container">
+            <form class="checkbox-form" action="#">
+              <input
+                id="licensia-checkbox"
+                class="licensia"
+                type="checkbox"
+                name="licensia"
+                value="1"
+              />
+            </form>
+            <label for="licensia-checkbox" class="no-padding text-checkbox"
+              >Нажимая кнопку “Отправить” вы соглашаетесь с политикой
+              конфидециальности</label
+            >
+            <div class="no-padding question-button">
+              <button class="button">Отправить вопрос</button>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
-        <section class="container business-section-wrapper">
-        <div class="business-section-inner-wrapper">
+    <section class="container business-section-wrapper">
+      <div class="business-section-inner-wrapper"></div>
+      <div class="business-text-container">
+        <h2 class="business-heading">юристы для бизнеса</h2>
+        <p class="business-text">
+          Сопровождение юридических лиц во всех областях права
+        </p>
+        <div class="business-button-container">
+          <button class="button business-button">Заказать звонок</button>
         </div>
-        <div class="business-text-container">
-            <h2 class="business-heading">юристы для бизнеса</h2>
-            <p class="business-text">Сопровождение юридических лиц во всех областях права</p>
-            <div class="business-button-container">
-                <button class="button business-button">Заказать звонок</button>
-            </div>
-        </div>
+      </div>
     </section>
     <section class="services-section">
-        <div class="container">
-            <div class="row">
-                <div class="text-align-center">
-                    <h2 class="text-container-heading">Предоставляемые услуги</h2>
-                    <p class="col-md-11 text-container-description services-text">Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.</p>
-                </div>
-                <div class="slider-container row">
-                    <div class="slider-container-card slider-container-card-side left-card none-sm block-md">
-                            <h3 class="slider-heading slider-heading-side">Строительство зданий</h3>
-                            <p class="slider-text slider-text-left">Осуществляется от имени и в интересах лиц, участвующих в деле: сторон, третьих лиц, заявителей и иных заинтересованных лиц.</p>
-                            <div class="slider-link-container text-align-center">
-                                <a class="slider-link" href="#">Подробнее</a>
-                            </div>
-                    </div>
-                    <div class="slider-container-card">
-                            <h3 class="slider-heading slider-heading-center">Ремонт оборудования</h3>
-                            <p class="slider-text slider-text-center">Частичная или полная передача работ по поддержке, обслуживанию и модернизации ИТ-инфраструктуры в руки компаний.</p>
-                            <div class="slider-link-container text-align-center">
-                                <a class="slider-link" href="#">Подробнее</a>
-                            </div>
-                    </div>
-                        <div class="slider-container-card slider-container-card-side right-card none-sm block-md">
-                            <h3 class="slider-heading slider-heading-side">Курсы английского</h3>
-                            <p class="slider-text slider-text-right">Проверка финансово-экономической деятельности организации, проводимая аудитором.</p>
-                            <div class="slider-link-container text-align-center">
-                                <a class="slider-link" href="#">Подробнее</a>
-                            </div>
-                        </div>
-                </div>
-                <div class="strip-container text-align-center">
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                </div>
-                <a href="#" class="arrow arrow_left col-sm-6 col-md-1">
-                    <img class="arrow_image" src="./assets/icons/left_arrow.png" alt="Left arrow">
-                </a>
-                <a href="#" class="arrow arrow_right col-sm-6 col-md-1">
-                    <img class="arrow_image text-align-center" src="./assets/icons/right_arrow.png" alt="Right arrow">
-                </a>
+      <div class="container">
+        <div class="row">
+          <div class="text-align-center">
+            <h2 class="text-container-heading">Предоставляемые услуги</h2>
+            <p class="col-md-11 text-container-description services-text">
+              Компания специализируется на оказании широкого спектра услуг как
+              для корпоративных клиентов так и для частных лиц. Профессионализм
+              и ответственность ключевые преимущества нашей компании.
+            </p>
+          </div>
+          <div class="slider-container row">
+            <div
+              class="slider-container-card slider-container-card-side left-card none-sm block-md"
+            >
+              <h3 class="slider-heading slider-heading-side">
+                Строительство зданий
+              </h3>
+              <p class="slider-text slider-text-left">
+                Осуществляется от имени и в интересах лиц, участвующих в деле:
+                сторон, третьих лиц, заявителей и иных заинтересованных лиц.
+              </p>
+              <div class="slider-link-container text-align-center">
+                <a class="slider-link" href="#">Подробнее</a>
+              </div>
             </div>
+            <div class="slider-container-card">
+              <h3 class="slider-heading slider-heading-center">
+                Ремонт оборудования
+              </h3>
+              <p class="slider-text slider-text-center">
+                Частичная или полная передача работ по поддержке, обслуживанию и
+                модернизации ИТ-инфраструктуры в руки компаний.
+              </p>
+              <div class="slider-link-container text-align-center">
+                <a class="slider-link" href="#">Подробнее</a>
+              </div>
+            </div>
+            <div
+              class="slider-container-card slider-container-card-side right-card none-sm block-md"
+            >
+              <h3 class="slider-heading slider-heading-side">
+                Курсы английского
+              </h3>
+              <p class="slider-text slider-text-right">
+                Проверка финансово-экономической деятельности организации,
+                проводимая аудитором.
+              </p>
+              <div class="slider-link-container text-align-center">
+                <a class="slider-link" href="#">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="strip-container text-align-center">
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+          </div>
+          <a href="#" class="arrow arrow_left col-sm-6 col-md-1">
+            <img
+              class="arrow_image"
+              src="./assets/icons/left_arrow.png"
+              alt="Left arrow"
+            />
+          </a>
+          <a href="#" class="arrow arrow_right col-sm-6 col-md-1">
+            <img
+              class="arrow_image text-align-center"
+              src="./assets/icons/right_arrow.png"
+              alt="Right arrow"
+            />
+          </a>
         </div>
+      </div>
     </section>
     <section class="advantages-section">
-        <div class="container">
-            <h2 class="text-container-heading text-align-center">Наши преимущества</h2>
-            <p class="advantages-section-description text-container-description text-align-center">Команда опытных юристов</p>
-            <div class="row advantages-section-container">
-                <div class="advantages-section-item">
-                    <div class="row advantages-section-heading-container">
-                        <div class="advantages-item-image-container">
-                            <img class="advantages-item-image" src="./assets/icons/bag.png" alt="Bag">
-                        </div>
-                        <h4 class="advantages-item-heading">Низкие цены и широкий ассортимент</h4>
-                    </div>
-                    <p class="advantages-item-text">Не следует, однако забывать, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке дальнейших направлений развития.</p>
-                </div>
-                <div class="advantages-section-item">
-                    <div class="row advantages-section-heading-container">
-                        <div class="advantages-item-image-container">
-                            <img class="advantages-item-image" src="./assets/icons/certificate.png" alt="Certificate">
-                        </div>
-                        <h4 class="advantages-item-heading">Весь товар сертифицирован</h4>
-                    </div>
-                    <p class="advantages-item-text">С другой стороны консультация с широким активом позволяет оценить значение новых предложений. Значимость этих проблем настолько очевидна, что реализация намеченных планов.</p>
-                </div>
-                <div class="advantages-section-item">
-                    <div class="row advantages-section-heading-container">
-                        <div class="advantages-item-image-container">
-                            <img class="advantages-item-image" src="./assets/icons/location.png" alt="Map">
-                        </div>
-                        <h4 class="advantages-item-heading">Широкая сеть представительств</h4>
-                    </div>
-                    <p class="advantages-item-text">Таким образом консультация с широким активом способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.</p>
-                </div>
-                <div class="advantages-section-item">
-                    <div class="row advantages-section-heading-container">
-                        <div class="advantages-item-image-container">
-                            <img class="advantages-item-image"  src="./assets/icons/truck.png" alt="Truck">
-                        </div>
-                        <h4 class="advantages-item-heading">Оперативная доставка и выгрузка товара</h4>
-                    </div>
-                    <p class="advantages-item-text">Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации позиций.</p>
-                </div>
+      <div class="container">
+        <h2 class="text-container-heading text-align-center">
+          Наши преимущества
+        </h2>
+        <p
+          class="advantages-section-description text-container-description text-align-center"
+        >
+          Команда опытных юристов
+        </p>
+        <div class="row advantages-section-container">
+          <div class="advantages-section-item">
+            <div class="row advantages-section-heading-container">
+              <div class="advantages-item-image-container">
+                <img
+                  class="advantages-item-image"
+                  src="./assets/icons/bag.png"
+                  alt="Bag"
+                />
+              </div>
+              <h4 class="advantages-item-heading">
+                Низкие цены и широкий ассортимент
+              </h4>
             </div>
+            <p class="advantages-item-text">
+              Не следует, однако забывать, что постоянный количественный рост и
+              сфера нашей активности позволяет выполнять важные задания по
+              разработке дальнейших направлений развития.
+            </p>
+          </div>
+          <div class="advantages-section-item">
+            <div class="row advantages-section-heading-container">
+              <div class="advantages-item-image-container">
+                <img
+                  class="advantages-item-image"
+                  src="./assets/icons/certificate.png"
+                  alt="Certificate"
+                />
+              </div>
+              <h4 class="advantages-item-heading">Весь товар сертифицирован</h4>
+            </div>
+            <p class="advantages-item-text">
+              С другой стороны консультация с широким активом позволяет оценить
+              значение новых предложений. Значимость этих проблем настолько
+              очевидна, что реализация намеченных планов.
+            </p>
+          </div>
+          <div class="advantages-section-item">
+            <div class="row advantages-section-heading-container">
+              <div class="advantages-item-image-container">
+                <img
+                  class="advantages-item-image"
+                  src="./assets/icons/location.png"
+                  alt="Map"
+                />
+              </div>
+              <h4 class="advantages-item-heading">
+                Широкая сеть представительств
+              </h4>
+            </div>
+            <p class="advantages-item-text">
+              Таким образом консультация с широким активом способствует
+              подготовки и реализации позиций, занимаемых участниками в
+              отношении поставленных задач.
+            </p>
+          </div>
+          <div class="advantages-section-item">
+            <div class="row advantages-section-heading-container">
+              <div class="advantages-item-image-container">
+                <img
+                  class="advantages-item-image"
+                  src="./assets/icons/truck.png"
+                  alt="Truck"
+                />
+              </div>
+              <h4 class="advantages-item-heading">
+                Оперативная доставка и выгрузка товара
+              </h4>
+            </div>
+            <p class="advantages-item-text">
+              Идейные соображения высшего порядка, а также постоянное
+              информационно-пропагандистское обеспечение нашей деятельности
+              способствует подготовки и реализации позиций.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
     <section class="section-consultation">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-5 no-padding section-consultation-text">
-                    <h2 class="text-container-heading">Юридическая помощь <span class="section-consultation-span-heading">начинается с консультации</span></h2>
-                    <ul class="section-consultation-list">
-                        <li class="section-consultation-list-item">Заполните форму заявки , что бы получить первую бесплатную консультацию по Вашей ситуации</li>
-                        <li class="section-consultation-list-item">Наш менеджер свяжется с вами в ближайшее время</li>
-                    </ul>
-                </div>
-                <form class="col-sm-8 col-md-3 section-consultation-form" action="#">
-                    <label class="consultation-label consultation-user">Введите Ваше имя</label>
-                    <input class="consultation-input" type="text" name="user_name">
-                    <label class="consultation-label consultation-phone">Введите номер телефона</label>
-                    <input class="consultation-input" type="text" name="phone_number">
-                    <div class="consultation-button-container">
-                        <button class="button consultation-button">Получить</button>
-                        <p class="consultation-button-description text-align-center">Нажимая на кнопку, Вы даете согласие на обработку <a class="personal-data" href="#" target="_blank" >персональных данных</a></p>
-                    </div>
-                </form>
-                <picture class="col-sm-4 section-consultation-picture">
-                    <source srcset="./assets/images/iphone_513.png" media="(min-width: 1920px)" type="image/png">
-                    <source srcset="./assets/images/iphone_361.png" media="(min-width: 1336px)" type="image/png">
-                    <source srcset="./assets/images/iphone_255.png" media="(min-width: 1024px)" type="image/png">
-                    <source srcset="./assets/images/iphone_204.png" media="(min-width: 768px)" type="image/png">
-                    <img src="./assets/images/iphone_111.png" alt="Iphone">
-                </picture>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-5 no-padding section-consultation-text">
+            <h2 class="text-container-heading">
+              Юридическая помощь
+              <span class="section-consultation-span-heading"
+                >начинается с консультации</span
+              >
+            </h2>
+            <ul class="section-consultation-list">
+              <li class="section-consultation-list-item">
+                Заполните форму заявки , что бы получить первую бесплатную
+                консультацию по Вашей ситуации
+              </li>
+              <li class="section-consultation-list-item">
+                Наш менеджер свяжется с вами в ближайшее время
+              </li>
+            </ul>
+          </div>
+          <form class="col-sm-8 col-md-3 section-consultation-form" action="#">
+            <label class="consultation-label consultation-user"
+              >Введите Ваше имя</label
+            >
+            <input class="consultation-input" type="text" name="user_name" />
+            <label class="consultation-label consultation-phone"
+              >Введите номер телефона</label
+            >
+            <input class="consultation-input" type="text" name="phone_number" />
+            <div class="consultation-button-container">
+              <button class="button consultation-button">Получить</button>
+              <p class="consultation-button-description text-align-center">
+                Нажимая на кнопку, Вы даете согласие на обработку
+                <a class="personal-data" href="#" target="_blank"
+                  >персональных данных</a
+                >
+              </p>
             </div>
+          </form>
+          <picture class="col-sm-4 section-consultation-picture">
+            <source
+              srcset="./assets/images/iphone_513.png"
+              media="(min-width: 1920px)"
+              type="image/png"
+            />
+            <source
+              srcset="./assets/images/iphone_361.png"
+              media="(min-width: 1336px)"
+              type="image/png"
+            />
+            <source
+              srcset="./assets/images/iphone_255.png"
+              media="(min-width: 1024px)"
+              type="image/png"
+            />
+            <source
+              srcset="./assets/images/iphone_204.png"
+              media="(min-width: 768px)"
+              type="image/png"
+            />
+            <img src="./assets/images/iphone_111.png" alt="Iphone" />
+          </picture>
         </div>
+      </div>
     </section>
     <section class="reviews-section">
-        <div class="container">
-            <div class="row reviews-section-row">
-                <div class="reviews-section-text-container text-align-center">
-                    <h2 class="text-container-heading ">Отзывы</h2>
-                    <p class="text-container-description">За долгое время работы, мы собрали десятки отзывов, которые помогут свормировать мнение о нашей работе</p>
-                </div>
-                <div class="col-sm-12 col-md-6 reviews-user-container">
-                    <a href="#" class="reviews-section-arrow reviews-section-arrow-left">
-                    </a>
-                    <div class="stars-container">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                    </div>
-                    <p class="text-container-description">В результате действий команды юристов удалось взыскать задолженость в размере 7 045 515 гривен.</p>
-                    <div class="review-user-container">
-                            <img class="review-user-image" src="./assets/images/user-feedback.png" alt="User feedback">
-                        <div class="review-user-info">
-                            <p class="review-user-name">Алексей.К.В</p>
-                            <p class="review-user-work-place">ООО “Энергон”</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="none-sm block-md col-md-6 reviews-user-container">
-                    <a href="#" class="reviews-section-arrow reviews-section-arrow-right">
-                    </a>
-                    <div class="stars-container">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                        <img class="star-image" src="./assets/icons/star.png" alt="Star">
-                    </div>
-                    <p class="text-container-description">В результате действий команды юристов удалось взыскать задолженость в размере 7 045 515 гривен.</p>
-                    <div class="review-user-container">
-                        <img class="review-user-image" src="./assets/images/user-feedback.png" alt="User feedback">
-                        <div class="review-user-info">
-                            <p class="review-user-name">Алексей.К.В</p>
-                            <p class="review-user-work-place">ООО “Энергон”</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="strip-container text-align-center">
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                    <a href="#"><div class="strip"></div></a>
-                </div>
-                <a href="#" class="arrow_left col-sm-6 none-md">
-                    <img class="arrow_image" src="./assets/icons/left_arrow.png" alt="Left arrow">
-                </a>
-                <a href="#" class="arrow_right col-sm-6 none-md">
-                    <img class="arrow_image text-align-center" src="./assets/icons/right_arrow.png" alt="Right arrow">
-                </a>
+      <div class="container">
+        <div class="row reviews-section-row">
+          <div class="reviews-section-text-container text-align-center">
+            <h2 class="text-container-heading">Отзывы</h2>
+            <p class="text-container-description">
+              За долгое время работы, мы собрали десятки отзывов, которые
+              помогут свормировать мнение о нашей работе
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 reviews-user-container">
+            <a
+              href="#"
+              class="reviews-section-arrow reviews-section-arrow-left"
+            >
+            </a>
+            <div class="stars-container">
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
             </div>
+            <p class="text-container-description">
+              В результате действий команды юристов удалось взыскать
+              задолженость в размере 7 045 515 гривен.
+            </p>
+            <div class="review-user-container">
+              <img
+                class="review-user-image"
+                src="./assets/images/user-feedback.png"
+                alt="User feedback"
+              />
+              <div class="review-user-info">
+                <p class="review-user-name">Алексей.К.В</p>
+                <p class="review-user-work-place">ООО “Энергон”</p>
+              </div>
+            </div>
+          </div>
+          <div class="none-sm block-md col-md-6 reviews-user-container">
+            <a
+              href="#"
+              class="reviews-section-arrow reviews-section-arrow-right"
+            >
+            </a>
+            <div class="stars-container">
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
+              <img
+                class="star-image"
+                src="./assets/icons/star.png"
+                alt="Star"
+              />
+            </div>
+            <p class="text-container-description">
+              В результате действий команды юристов удалось взыскать
+              задолженость в размере 7 045 515 гривен.
+            </p>
+            <div class="review-user-container">
+              <img
+                class="review-user-image"
+                src="./assets/images/user-feedback.png"
+                alt="User feedback"
+              />
+              <div class="review-user-info">
+                <p class="review-user-name">Алексей.К.В</p>
+                <p class="review-user-work-place">ООО “Энергон”</p>
+              </div>
+            </div>
+          </div>
+          <div class="strip-container text-align-center">
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+            <a href="#"><div class="strip"></div></a>
+          </div>
+          <a href="#" class="arrow_left col-sm-6 none-md">
+            <img
+              class="arrow_image"
+              src="./assets/icons/left_arrow.png"
+              alt="Left arrow"
+            />
+          </a>
+          <a href="#" class="arrow_right col-sm-6 none-md">
+            <img
+              class="arrow_image text-align-center"
+              src="./assets/icons/right_arrow.png"
+              alt="Right arrow"
+            />
+          </a>
         </div>
+      </div>
     </section>
     <footer class="footer">
-        <div class="container">
+      <div class="container">
         <div class="row">
-            <div class="col-md-4 col-lg-3">
-                <p class="footer-rights none-sm block-md">2021 Все права защищены </p>
-                <div class="footer-social-networks none-sm block-md">
-                    <a href="#"><img class="footer-social-networks-image" src="./assets/icons/youtube.png" alt="YouTube"></a>
-                    <a href="#"><img class="footer-social-networks-image" src="./assets/icons/instagram.png" alt="Instagram"></a>
+          <div class="col-md-4 col-lg-3">
+            <p class="footer-rights none-sm block-md">
+              2021 Все права защищены
+            </p>
+            <div class="footer-social-networks none-sm block-md">
+              <a href="#"
+                ><img
+                  class="footer-social-networks-image"
+                  src="./assets/icons/youtube.png"
+                  alt="YouTube"
+              /></a>
+              <a href="#"
+                ><img
+                  class="footer-social-networks-image"
+                  src="./assets/icons/instagram.png"
+                  alt="Instagram"
+              /></a>
             </div>
-            </div>
-            <ul class="row col-md-4 col-lg-6 footer-list">
-                <li class="col-sm-6 col-lg-4 footer-list-item">
-                    <a class="footer-list-item-link" href="#">каталог</a>
-                </li>
-                <li class="col-sm-6 col-lg-4 footer-list-item">
-                    <a class="footer-list-item-link" href="#">прайс лист</a>
-                </li>
-                <li class="col-sm-6 col-lg-4 footer-list-item">
-                    <a class="footer-list-item-link" href="#">компания</a>
-                </li>
-                <li class="col-sm-6 col-lg-4 footer-list-item">
-                    <a class="footer-list-item-link" href="#">вопросы и ответы</a>
-                </li>
-                <li class="col-sm-6 col-lg-4 footer-list-item">
-                    <a class="footer-list-item-link" href="#">услуги</a>
-                </li>
-                <li class="col-sm-6 col-lg-4 footer-list-item">
-                    <a class="footer-list-item-link" href="#">контакты</a>
-                </li>
-            </ul>
-            <div class="col-md-4 col-lg-3 footer-contacts">
-                <a class="footer-phone block-sm" href="tel:+74951111111">+3 (000) <span class="footer-phone-numbers">000-00-00</span></a>
-                <a class="footer-email block-sm" href="mailto:info@classica-prava">info@classica-prava</a>
-            </div>
-            <div class="footer-social-networks none-md">
-                <a href="#"><img class="footer-social-networks-image" src="./assets/icons/youtube.png" alt="YouTube"></a>
-                <a href="#"><img class="footer-social-networks-image" src="./assets/icons/instagram.png" alt="Instagram"></a>
-            </div>
-            <p class="footer-adress text-align-center">г. Киев  ООО “Классика Права”</p>
-            <p class="footer-rights none-md">2021 Все права защищены </p>
+          </div>
+          <ul class="row col-md-4 col-lg-6 footer-list">
+            <li class="col-sm-6 col-lg-4 footer-list-item">
+              <a class="footer-list-item-link" href="#">каталог</a>
+            </li>
+            <li class="col-sm-6 col-lg-4 footer-list-item">
+              <a class="footer-list-item-link" href="#">прайс лист</a>
+            </li>
+            <li class="col-sm-6 col-lg-4 footer-list-item">
+              <a class="footer-list-item-link" href="#">компания</a>
+            </li>
+            <li class="col-sm-6 col-lg-4 footer-list-item">
+              <a class="footer-list-item-link" href="#">вопросы и ответы</a>
+            </li>
+            <li class="col-sm-6 col-lg-4 footer-list-item">
+              <a class="footer-list-item-link" href="#">услуги</a>
+            </li>
+            <li class="col-sm-6 col-lg-4 footer-list-item">
+              <a class="footer-list-item-link" href="#">контакты</a>
+            </li>
+          </ul>
+          <div class="col-md-4 col-lg-3 footer-contacts">
+            <a class="footer-phone block-sm" href="tel:+74951111111"
+              >+3 (000) <span class="footer-phone-numbers">000-00-00</span></a
+            >
+            <a class="footer-email block-sm" href="mailto:info@classica-prava"
+              >info@classica-prava</a
+            >
+          </div>
+          <div class="footer-social-networks none-md">
+            <a href="#"
+              ><img
+                class="footer-social-networks-image"
+                src="./assets/icons/youtube.png"
+                alt="YouTube"
+            /></a>
+            <a href="#"
+              ><img
+                class="footer-social-networks-image"
+                src="./assets/icons/instagram.png"
+                alt="Instagram"
+            /></a>
+          </div>
+          <p class="footer-adress text-align-center">
+            г. Киев ООО “Классика Права”
+          </p>
+          <p class="footer-rights none-md">2021 Все права защищены</p>
         </div>
-        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
